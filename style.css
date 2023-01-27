@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    /* background-color: grey; */
+    background-image: url('https://cdn.wallpapersafari.com/22/22/RUgdhy.png');
 }
 
 *{
@@ -9,9 +10,6 @@ body{
     padding: 0;
 }
 
-nav{
-    font-family: 'Ubuntu', sans-serif;
-}
 
 nav ul{
     display: flex;
@@ -24,6 +22,10 @@ nav ul{
 
 nav ul li{
     padding: 0 12px;
+}
+
+nav ul li:hover{
+    scale:1.08;
 }
 
 
@@ -52,6 +54,10 @@ nav ul li{
    padding: 34px;
    background-image: url('bg.jpg');
 }
+
+/* .container div:hover {
+    opacity: 1;
+} */
 
 .bottom{
     position: sticky;
@@ -105,6 +111,16 @@ nav ul li{
 
 .timestamp i{
     cursor: pointer;
+}
+
+.songList div :hover{
+    opacity: 1;
+    scale: 1.02;
+}
+
+
+.songList div .timestamp i:hover{
+    scale: 1.2;
 }
 
 .songInfo{
